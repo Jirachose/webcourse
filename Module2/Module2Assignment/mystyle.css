@@ -1,0 +1,99 @@
+nav{
+    text-align: center;
+    
+    
+}
+body{
+    background-color: rgb(248, 183, 183);
+    
+    
+    
+}
+.head2{
+  position: relative;left:10 px;top:55px;
+  font-size: medium
+}
+
+
+
+
+.navbar {
+    overflow: hidden;    
+    position: fixed;
+    top: 80px;
+    width: 100%;
+
+
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .navbar a:hover {
+    color: #ffffff;
+    background-color: black;
+  }
+  .container {
+    padding: 18px;
+    margin-top: 25px;
+    height: 2000px;
+  }
+
+ 
+
+  #h2{
+      
+      text-align: center;
+      position:relative; left:0px; top:40px;
+      font-size: medium;
+      font-family: 'Times New Roman', Times, serif;
+      
+  }
+
+
+  .article
+{
+    column-count: 3;
+    column-gap: 21px;
+    column-rule-width: 1px;
+    column-rule-style: solid;
+    column-rule-color: #000;
+    display: block;
+    position: relative;left:10 px;top:55px;
+
+
+
+}
+ table,tr,th,td{
+  text-align: center;
+  border:1px solid black;
+  border-collapse:collapse;
+  padding:3px;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+.Home{
+    
+    
+  text-shadow: 10px 10px 1px;
+  font-size: xx-large;
+  text-align: center;
+  color: black;
+  font-family: 'Lucida Sans';
+
+
+}
+
+.art{
+
+  text-align: right;
+}
