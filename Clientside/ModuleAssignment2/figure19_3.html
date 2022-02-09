@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="image.js"></script>
+  <link rel="stylesheet" href="mod2style.css">
+  <title>Random Images</title>
+</head>
+
+<body>
+  <h1> Adonai Hill</h1>
+  <h2> Swapping Images</h2>
+  <p>This page shows how to swap images using Java Script</p>
+
+
+  <img id="large_img" src="images/cookie_large.jpg" alt="Image of a cookie"
+    style="border:1px solid black; margin-right: 13px; ; text-align: center;"/>
+
+
+  <aside>
+    <p id="imgDescr">Home Made Chocolate  Chip Cookies</p>
+  </aside>
+
+  <p> Click on one of the images below to see it above</p>
+ 
+  <div>
+     <img src="images/cookie_small.jpg" onmouseover="showImage('images/cookie_large.jpg')"
+      style="border:1px solid black; margin-right: 3px;" alt="Cookie photo" />
+
+     <img src="images/small_Fruit.jpg" onmouseover="showImage('images/Fruit.jpg')"
+      style="border: 1px soilid black; margin-right: 3px;" alt="Fruit Photo" />
+
+     <img src="images/small_Pasta.jpg" onmouseover="showImage('images/Pasta.jpg')"
+      style="border:1px solid black; margin-right:3px;" alt="Pasta Photo"/>
+
+
+  </div>
+  </script>
+  <p></p>
+</body>
+
+</html>
