@@ -1,0 +1,36 @@
+body{
+    text-align: justify;
+    background: url("../images/annie.jpg") no-repeat top right;
+}
+
+a{
+    font-weight: bold;
+    font-family: cursive;
+    text-decoration: none;
+}
+a:link{
+    color:brown
+
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    color: blanchedalmond;
+}
+a:focus{
+    color: bisque;
+}
+
+.rightimg{
+    float: right;
+    padding: 15px;
+    width: 240px;
+   
+}
+.content{
+    margin: 5% 10% 10%;
+    border: 10px black solid;
+    padding: 25px;
+    width:80%
+}

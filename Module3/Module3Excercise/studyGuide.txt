@@ -1,0 +1,53 @@
+Chapter 7 study Guide
+
+1.To add the links to the other pages, you do something like the 
+following:
+
+&lt;a href" http://www.supercheapsuits.com/~billybob/"&gt;Billy Bob's site &lt;/a&gt;
+
+2.What HTML would you use to make it possible for someone clicking the
+words "About the Authors" at the top of a page to skip down to a
+list of credits somewhere else on the pages?
+
+&lt; a href="#credits"&gt;About the Authors &lt;/a&gt;</pre>
+                   Type this at the beginning of the credits section:
+                   <pre>&lt;anytag id="credits"&gt;
+
+3.If your your email address is bon@soir.com, how would you make the
+text "goofnight greeting" into a link that people can click to
+compose and send you an email?
+
+Send me a <pre>a&lt; href="mailto:bon@soir.com"&gt;goodnight greeting&lt;/a&gt;
+
+4. What attribute cann you ass to an HTML element to turn it into an anchor?
+
+    The id attribute can be used on any HTML element as an anchor.
+
+
+
+5.What character do you use to link an anchor?
+
+You can use the pound sign(#) to link to a named anchor point on the page
+
+6. How do you tell a browser that the link target document should be
+downloaded rather than loaded through in the window?
+
+Use the download to tell the browser the link target should be downloaded.
+
+7.When should you include http:// in a link?
+
+You should include the http:// and the rest of the FQDN when you are linking to a page outside the current site
+
+
+8.What mail features can you use in a mailto link?
+
+You must point to the email address the message is to. Optional values 
+are subject, body, cc, and bcc
+
+9.When is the best case to force a link to open in a new window?
+
+You should avoid forcing links to open new window at all costs.
+
+10.What pseudo-class do you use to style visited links?
+
+Use the a:visited pseudo-class to style visited links.
