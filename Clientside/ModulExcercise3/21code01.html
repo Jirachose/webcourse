@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Displaying the Last Modified Date</title>
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <h1>Displaying the Last Modified Date</h1>
+    <p>This page was last modified on:
+    <script>
+       document.writeln(document.lastModified  + "<br>" );
+       document.writeln( "URL:"+document.URL + "<br>");
+       document.writeln("Title:"+document.title + "<br>");
+    </script>
+    </p>
+    <p><a href="21code02.html">Using Custome  Go back and Go Forward Button</a></p>
+    <div>
+      <button type="button"
+              onclick="history.back();">Go Back</button>
+      <button type="button"
+              onclick="history.forward();">Go Forward</button>
+      <button onClick="window.location.reload();">Reload Page</button>
+    </div>
+  </body>
+</html>
