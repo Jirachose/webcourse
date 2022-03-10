@@ -1,0 +1,156 @@
+div {
+    width: 255px; 
+    height: 100px;
+    color: black;
+    border:1px;
+    box-sizing: border-box;
+    position: relative;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3;
+    overflow: auto;
+   
+  }
+  div#d1 {
+    background-color: red;
+    margin: 10px;
+    float:left;
+    border: 10px solid #000;
+  }
+  div#d2 {
+    background-color: green;
+    margin-left: 10px;
+    float:left;
+    border: 15px solid #000;
+    
+  }
+  div#d3 {
+    background-color: blue;
+    margin-left:10px ;
+    float:left;
+    border: 2px solid #000;
+    
+  
+  }
+  div#d4 {
+    background-color: yellow;
+    margin: 10px;
+    float:left;
+    border: 3px solid #000;
+    
+  }
+  div#d5{
+    background-color: bisque;
+    margin:10px 0 10px;
+    float:left;
+    border: 4px solid #000;
+    position: relative;
+    -webkit-animation-name: color-shape-movement; 
+    -webkit-animation-duration: 8s;
+    animation-name: color-shape-movement;
+    animation-duration: 8s;
+    animation-iteration-count: 3;
+  }
+
+
+  div#d6
+  {
+    background-color: antiquewhite;
+    margin:10px 0 0 10px;
+    float:left;
+    border: 6px solid #000;
+
+  }
+  div#d7{
+    background-color: beige;
+    margin: 10px 0px 10px 10px;
+    float:left;
+    border: 7px solid #000;
+
+  }
+  div#d8{
+    background-color: yellowgreen;
+    margin:10px 10px 10px 10px;
+    float:left;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 20px 23px #7fecad;
+
+  }
+  h1{
+    text-align: center;
+  }
+
+  @keyframes color-shape-movement {
+    0%   {background-color:pink; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:orange; left:200px; top:200px;}
+    75%  {background-color:gray; left:0px; top:200px;}
+    100% {background-color:green; left:0px; top:0px;}
+}
+
+wave {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/756881/wavePurple.svg) repeat-x;
+  position: absolute;
+  bottom: -10px;
+  width: 6400px;
+  height: 198px;
+  animation: wave 12s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite, swell 8s ease -1.25s infinite;;
+  transform: translate3d(0, 0, 0);
+}
+
+img{
+  position: absolute;
+}
+ 
+ 
+.i{
+  Bottom:1000px;
+  margin-left: 1000px;
+}
+   
+    
+    
+  
+   
+
+img#i1{
+  top: 580px;
+  z-index:-1;
+ 
+
+
+
+}
+img#i2{
+  top:580px;
+  right:155px;
+  z-index: -1;
+
+
+
+
+}
+img#i3{
+  top:723px;
+  z-index: -100;
+
+  
+}
+img#i4{
+  top:727px;
+  right: 176px;
+  z-index:-1;
+
+}
+body {
+  font: 12pt Verdana, Arial, Georgia, sans-serif;
+}
+ZuVTMmY8z
+
+section {
+  width: 550px;
+  float: left;
+}
+
+
