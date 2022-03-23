@@ -14,15 +14,7 @@ display: grid;
 justify-items: center;  
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif 
 }  
-
-
-
-
-*{  
-   padding: 0;  
-   margin: 0;  
-   box-sizing: border-box;  
- }  
+ 
  body{
    background-color: wheat
  }
@@ -40,7 +32,7 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
    margin-top: 30px;  
    border-radius: 5px;  
    border: 2px solid #202020;  
-   color: #663399;  
+   color: red;  
  }  
  button{  
    width: 160px;  
