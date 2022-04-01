@@ -24,8 +24,11 @@
        padding: 5px 0;  
        font-size: 28px;  
        text-align: center;  
-       margin-top: 30px;  
+       margin-top:30px;  
+     
+       margin-left: 120px;
        border-radius: 5px;  
+    
        border: 2px solid #202020; 
        
        color: red;  
@@ -40,7 +43,7 @@
        font-size: 24px;  
        font-weight: 600;  
        margin-bottom: 30px;  
-       margin-left: 155px;
+       margin-left: 300px;
        background-color: brown;
         background-image: black ;
         background-image: -moz-linear-gradient(top, salmon 0%, yellow 100%); 
@@ -65,13 +68,13 @@
         margin-left: 120px;
      }
      .ps{
-         margin-left: 125px;
+         margin-left: 130px;
      }
      div {
-      box-shadow: 5px, 5px, 5px, black;
-      width: 600px;
-      padding: 10px;
-      border: 2px solid #000;
+      box-shadow: 100px, 100px, px, black;
+      width: 500px;
+      padding: 50px;
+      border: 2px transparent;
       border-radius: 15px;
       color:cadetblue;
       background-color: antiquewhite;
@@ -82,24 +85,33 @@
      border-bottom-left-radius:15px;
      margin-left: 260px;
      margin-right: 260px;
+     transform: perspective(1500px) rotateY(15deg);
+     border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    transition: transform 1s ease 0s;
+    transform: perspective(3000px) rotateY(5deg);
+        
+    }
+     
 
      
-    
 
-    }
+    
     h1{
         text-align: center;
         padding: 20px;
         border:  5px transparent;
         border-radius: 15px;
-        background-color: aliceblue;
+        background-color: palegoldenrod;
         -moz-border-radius: 15 px; 
        border-top-left-radius:15px;
         border-bottom-right-radius:15px;
         border-bottom-left-radius:15px;
-        margin-left: 240px;
-        margin-right: 240px;
+        margin-left: 300px;
+        margin-right: 300px;
+        width: 500px;
+
 
     }
     
-    
+   
