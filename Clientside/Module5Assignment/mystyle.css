@@ -1,0 +1,105 @@
+.container{  
+    position: absolute;  
+    width: 50%;  
+    min-width: 580px;  
+    transform: translate(-50%,-50%);  
+    top: 100%;  
+    left: 100%;  
+    background: #fff;  
+    padding: 50px 10px;  
+    border-radius: 5px;  
+    display: grid;  
+    justify-items: center;  
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}  
+
+    
+     h3{  
+       font-size: 16px;  
+       font-weight: 25;  
+     }  
+     input[type="number"]{  
+       width: 150px;  
+       font-weight: 6;  
+       padding: 5px 0;  
+       font-size: 28px;  
+       text-align: center;  
+       margin-top: 30px;  
+       border-radius: 5px;  
+       border: 2px solid #202020; 
+       
+       color: red;  
+     }  
+     button{  
+       width: 160px;  
+       padding: 16px 0;  
+       border-radius: 5px;  
+       background-color: brown;  
+       color: whitesmoke;  
+       border: none;  
+       font-size: 24px;  
+       font-weight: 600;  
+       margin-bottom: 30px;  
+       margin-left: 155px;
+       background-color: brown;
+        background-image: black ;
+        background-image: -moz-linear-gradient(top, salmon 0%, yellow 100%); 
+        background-image: -webkit-linear-gradient(top, #fff 0%,whitesmoke 100%); 
+        background-image: linear-gradient(to bottom, salmon 0%,salmon 100%); 
+        background-size: 300px;
+        background-repeat: no-repeat;
+        background-position: 0%;
+        -webkit-transition: background 300ms ease-in-out;
+        transition: background 300ms ease-in-out;
+     }
+        button:hover {
+        background-position: -200%;
+        transition: background 300ms ease-in-out;
+      }
+     
+     .p{  
+     
+       margin-left: 100px;
+     }  
+     .po{
+        margin-left: 120px;
+     }
+     .ps{
+         margin-left: 125px;
+     }
+     div {
+      box-shadow: 5px, 5px, 5px, black;
+      width: 600px;
+      padding: 10px;
+      border: 2px solid #000;
+      border-radius: 15px;
+      color:cadetblue;
+      background-color: antiquewhite;
+      -moz-border-radius: 15 px; 
+      border-top-right-radius:15px;
+     border-top-left-radius:15px;
+     border-bottom-right-radius:15px;
+     border-bottom-left-radius:15px;
+     margin-left: 260px;
+     margin-right: 260px;
+
+     
+    
+
+    }
+    h1{
+        text-align: center;
+        padding: 20px;
+        border:  5px transparent;
+        border-radius: 15px;
+        background-color: aliceblue;
+        -moz-border-radius: 15 px; 
+       border-top-left-radius:15px;
+        border-bottom-right-radius:15px;
+        border-bottom-left-radius:15px;
+        margin-left: 240px;
+        margin-right: 240px;
+
+    }
+    
+    
