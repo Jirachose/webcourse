@@ -1,0 +1,11 @@
+.box {
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    background: url(wolf.svg) center bottom / 
+                                     cover repeat, 
+                url(moon.png) right top / 45% no-repeat,
+                url(stars.jpg)
+
+              
+  }
