@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="preaching.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
 
     <title>Hillar</title>
   </head>  
@@ -13,6 +15,7 @@
         <nav>
           <a class="a" href="Web.html">Hillar Photography</a>
           <div class="nav-links">
+            <i class="fa fa-times"onclick="hideMenu()"></i>
             <ul>
               <li> <a href="Web.html">Home</a></li>
               <li> <a href="about.html">About</a></li>
@@ -20,9 +23,37 @@
               <li> <a href="contact.html">Contact</a></li>
 
             </ul>
+           
+            </div>
+            
           </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
       </section>
+      <section>
+        <div class="containers">
+          <form action="action_page.php">
+        
+            <lab></lab>el for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="country">Email</label>
+            <input type="text"id="country" name="Email"placeholder="Enter your Name">
+            
+        
+            <label for="subject">Comments</label>
+            <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+        
+           
+            <input(type='submit', value='Submit' , window.location.href='/thankyou')>
+             <input(type='clear', value='clear')>
+             
+        
+          </form>
+        </section>
  
 <script src="pig.js"></script>
   </body>
